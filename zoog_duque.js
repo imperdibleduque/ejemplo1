@@ -10,9 +10,9 @@ function  setup() {
 }
 
 function draw() {
-  fill(255, 100);
+  fill(150, 100);
   rectMode(CENTER);
-  rect(windowWidth/2, windowHeight/2, windowWidth, windowHeight);
+  rect(width/2, height/2, windowWidth, windowHeight);
 
   // Draw Zoog's body
   stroke(0);
