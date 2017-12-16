@@ -1,7 +1,7 @@
 // Example 3-6: Interactive Zoog ampliado
 function  setup() {
   // Set the size of the window
-  createCanvas(500, 255);  
+  createCanvas(windowWidth, windowHeight);  
   // The frame rate is set to 30 frames per second.
   frameRate(30);
   // Set ellipses and rects to CENTER mode
