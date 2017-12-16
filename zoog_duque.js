@@ -12,7 +12,7 @@ function  setup() {
 function draw() {
   fill(255, 100);
   rectMode(CENTER);
-  rect(width/2, height/2, 500, 255);
+  rect(width/2, height/2, windowWidth, windowHeight);
 
   // Draw Zoog's body
   stroke(0);
